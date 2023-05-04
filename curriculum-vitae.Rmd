@@ -1,10 +1,10 @@
 ---
 params:
-  author: "Mickaël Canouil"
+  author: "Rahul Venugopal"
   xlsx: "data/cv.xlsx"
   bib: "data/cv.bib"
   picture: "data/cv.png"
-title: '`r sprintf("%s - Curriculum Vitæ", params[["author"]])`'
+title: '`r sprintf("%s - Curriculum Vitae", params[["author"]])`'
 author: '`r params[["author"]]`'
 output:
   pagedown::html_resume:
